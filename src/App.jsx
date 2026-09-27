@@ -1,4 +1,4 @@
-/*import Hello from "./Mycomponents/Hello";
+/*import Hello from "./Mycomponents/Hello";   
 import Bye from "./Mycomponents/Bye";
 
 function App() {
@@ -24,19 +24,32 @@ function App() {
 
 export default App;*/
 
-import Counter from "./Mycomponents/Counter";
-import User from "./Mycomponents/User";
+// import Counter from "./Mycomponents/Counter"; // for counter component
+// import User from "./Mycomponents/User";
+
+// function App() {
+//   return (
+//     <div>
+//       <h1>React useState and Props Example</h1>
+
+//       <User name="Purva" course="MCA" />
+
+//       <Counter />
+//     </div>
+//   );
+// }
+
+//export default App; 
+
+import StudentForm from "./Mycomponents/StudentForm";   //for from component
 
 function App() {
   return (
     <div>
-      <h1>React useState and Props Example</h1>
-
-      <User name="Purva" course="MCA" />
-
-      <Counter />
+      <StudentForm />
     </div>
   );
 }
 
 export default App;
+
